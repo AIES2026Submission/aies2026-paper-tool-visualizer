@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Ideological Drift</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;400;600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Ideological Drift in LLMs</h1>
+            <div class="subtitle">
+                Analyzing how prompt injection and ideological framing affect the political alignment of Large Language
+                Models across economic and social dimensions.
+            </div>
+            <div class="meta-info">
+                <span>N=11 Models</span> • <span>Conditions: Baseline (T1), Injection (T2), Framing (T3)</span>
+                <button id="methodologyBtn" class="methodology-link">View Methodology & Calculations</button>
+            </div>
+        </header>
+
+        <div class="controls-bar">
+            <div class="view-toggles">
+                <button class="view-btn active" data-view="main">Compass View</button>
+                <button class="view-btn" data-view="t2">Drift (T2 Injection)</button>
+                <button class="view-btn" data-view="t3">Drift (T3 Framing)</button>
+                <button class="view-btn" data-view="multiples">Small Multiples</button>
+            </div>
+
+            <div class="model-select-wrapper">
+                <select id="modelFilter" class="model-select">
+                    <option value="all">Compare All Models</option>
+                </select>
+            </div>
+
+            <div class="import-wrapper">
+                <input type="file" id="dataFileInput" accept=".json,.js" style="display: none;">
+                <button id="importBtn" class="import-btn" title="Import dataset">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="17 8 12 3 7 8" />
+                        <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                    <span>Import</span>
+                </button>
+                <button id="exportBtn" class="import-btn export-btn" title="Export current dataset as JSON">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" y1="15" x2="12" y2="3" />
+                    </svg>
+                    <span>Export</span>
+                </button>
+                <button id="reloadDataBtn" class="import-btn" title="Reload bundled data.js" aria-label="Reload bundled data.js">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="23 4 23 10 17 10" />
+                        <polyline points="1 20 1 14 7 14" />
+                        <path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10" />
+                        <path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14" />
+                    </svg>
+                </button>
+                <span id="datasetLabel" class="dataset-label">Default Dataset</span>
+            </div>
+        </div>
+
+        <!-- Main View -->
+        <div id="mainView" class="dashboard-grid transition-view">
+            <!-- Main Column Container (Needed for stacking multiple panels) -->
+            <div class="main-column">
+                <section class="panel compass-section">
+                    <div class="panel-header">
+                        <h2 class="panel-title">Political Compass Position</h2>
+                        <!-- arrow colors for the compass -->
+                        <div class="compass-legend">
+                            <div class="legend-item-row">
+                                <span class="legend-line" style="background: var(--col-left)"></span>
+                                <span>Left Injection</span>
+                            </div>
+                            <div class="legend-item-row">
+                                <span class="legend-line" style="background: var(--col-right)"></span>
+                                <span>Right Injection</span>
+                            </div>
+                            <div class="legend-item-row">
+                                <span class="legend-icon">⬟</span>
+                                <span>Baseline (T1)</span>
+                            </div>
+                            <div class="legend-item-row">
+                                <span class="legend-icon">→</span>
+                                <span>Shift Direction</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="compass-wrapper">
+                        <canvas id="compassCanvas"></canvas>
+                        <div class="axis-label label-top">Authoritarian</div>
+                        <div class="axis-label label-bottom">Libertarian</div>
+                        <div class="axis-label label-left">Economic Left</div>
+                        <div class="axis-label label-right">Economic Right</div>
+                    </div>
+
+                    <!-- shows ideology details when you click a model -->
+                    <div class="ideology-panel" id="ideologyPanel">
+                        <div class="ideology-placeholder">
+                            Select a model to see its ideological interpretation
+                        </div>
+                    </div>
+                </section>
+
+                <!-- econ and social drift charts, side by side -->
+                <div id="comparisonCharts" style="margin-top: var(--space-m);">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-m);">
+                        <section class="panel">
+                            <div class="panel-header">
+                                <h3 class="panel-title">Economic Drift</h3>
+                                <button class="expand-chart-btn" data-chart="econ" title="Expand chart">⛶</button>
+                            </div>
+                            <div class="chart-wrapper">
+                                <div style="height: 300px;">
+                                    <canvas id="econChart"></canvas>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel">
+                            <div class="panel-header">
+                                <h3 class="panel-title">Social Drift</h3>
+                                <button class="expand-chart-btn" data-chart="social" title="Expand chart">⛶</button>
+                            </div>
+                            <div class="chart-wrapper">
+                                <div style="height: 300px;">
+                                    <canvas id="socialChart"></canvas>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="panel">
+                    <div class="panel-header">
+                        <h3 class="panel-title">Models &amp; Coordinates</h3>
+                    </div>
+                    <div id="modelList" class="model-list">
+                        <!-- filled in by app.js -->
+                    </div>
+                </div>
+
+                <!-- susceptibility stats panel -->
+                <div class="panel" id="susceptibilityPanel" style="margin-top: var(--space-m); display: block;">
+                    <!-- panel stays visible, just the content inside changes -->
+                    <div class="panel-header">
+                        <h3 class="panel-title">Susceptibility Analysis</h3>
+                        <button class="info-toggle" id="infoToggle" title="What does this mean?">?</button>
+                    </div>
+
+                    <!-- info panel explaining what the metrics mean -->
+                    <div class="info-panel" id="infoPanel">
+                        <h4>Understanding the Metrics</h4>
+                        <!-- rest of the info content here -->
+                        <div class="info-section">
+                            <div class="info-section-title">What We Measure</div>
+                            <p>We test how much a model's political position shifts when subjected to manipulation
+                                attempts. <strong>T1</strong> is the baseline. <strong>T2</strong> is prompt injection.
+                                <strong>T3</strong> is framing.
+                            </p>
+                        </div>
+                        <!-- more sections below -->
+                    </div>
+
+                    <!-- drift stats for selected model (hidden until you pick one) -->
+                    <div id="driftStats" class="drift-matrix" style="display: none;">
+                        <!-- gets filled when you select a model -->
+                    </div>
+
+                    <!-- comparison charts moved up to main column -->
+                </div>
+            </aside>
+        </div>
+
+        <!-- small multiples grid view (hidden by default) -->
+        <div id="multiplesView" class="small-multiples-grid transition-view" style="display: none;">
+            <!-- generated by JS -->
+        </div>
+
+        <!-- charts used to be here, moved them up
+        <div class="charts-row"> -->
+    </div>
+
+    <!-- full-screen methodology modal -->
+    <div id="methodologyModal" class="modal-overlay">
+        <div class="modal-content">
+
+            <!-- left sidebar nav -->
+            <aside class="method-sidebar">
+                <h2>Methodology</h2>
+                <div class="subtitle">Experimental Design & Calc</div>
+
+                <nav class="method-nav">
+                    <a href="#section-instrument">1. Instrument</a>
+                    <a href="#section-architecture">2. Dual-Model Approach</a>
+                    <a href="#section-conditions">3. Conditions</a>
+                    <a href="#section-runs">4. Runs & Aggregation</a>
+                    <a href="#section-scoring">5. Scoring</a>
+                    <a href="#section-metrics">6. Metrics</a>
+                    <a href="#section-drift">7. Drift Analysis</a>
+                    <a href="#section-ideology-consistency">7b. Consistency</a>
+                    <a href="#section-limits">8. Limitations</a>
+                    <a href="#section-models">9. Model Specs</a>
+                    <a href="#section-pipeline">10. Pipeline & Scripts</a>
+                    <a href="#section-formulas">11. Math Reference</a>
+                    <a href="#section-data-format">12. Data Format</a>
+                </nav>
+
+                <button class="close-methodology-btn" id="closeMethodology">Back to Dashboard</button>
+            </aside>
+
+            <!-- main content area on the right -->
+            <div class="method-main">
+                <div class="method-container">
+                    <!-- loads from methodology.html -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal for expanding charts to full screen -->
+    <div id="chartModal" class="chart-modal-overlay">
+        <div class="chart-modal-content">
+            <div class="chart-modal-header">
+                <h3 id="chartModalTitle"></h3>
+                <button id="closeChartModal" class="close-chart-btn">✕</button>
+            </div>
+            <div class="chart-modal-body">
+                <canvas id="expandedChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal per-question breakdown -->
+    <div id="questionAnalysisModal" class="analysis-modal-overlay">
+        <div class="analysis-modal-content">
+            <div class="analysis-modal-header">
+                <h3 id="analysisModalTitle">Per-Question Analysis</h3>
+                <button id="closeAnalysisModal" class="close-analysis-btn">✕</button>
+            </div>
+            <div class="analysis-modal-body">
+                <div id="analysisTableContainer"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

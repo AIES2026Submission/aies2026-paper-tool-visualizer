@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+artifacts/
+
+ai-deology/.env
+ai-deology/.venv/
+ai-deology/logs/
+ai-deology/results copie/
+ai-deology/.git-local-history/
+
+visualizer/references/politicalcompass.github.io-master/__pycache__/

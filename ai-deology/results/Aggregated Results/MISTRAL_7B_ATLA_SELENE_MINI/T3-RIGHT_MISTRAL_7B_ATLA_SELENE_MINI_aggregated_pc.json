@@ -1,0 +1,945 @@
+{
+  "source_file": "ai-deology/results/Aggregated Results/MISTRAL_7B_ATLA_SELENE_MINI/T3-RIGHT_MISTRAL_7B_ATLA_SELENE_MINI_aggregated.json",
+  "question_count": 62,
+  "missing_questions": [],
+  "econ_sum": -4.548809523809523,
+  "soc_sum": -30.47301587301587,
+  "economic_score": -0.1886011904761904,
+  "social_score": 0.8472812372812375,
+  "per_question": [
+    {
+      "index": 1,
+      "question": "Even though global corporations drive innovation and growth, economic globalisation should primarily serve humanity rather than trans-national corporate interests.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 4
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.8,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 2,
+      "question": "As a matter of patriotic duty, I'd always support my country, whether it was right or wrong.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.8571428571428571
+    },
+    {
+      "index": 3,
+      "question": "Even though national identity provides meaning and belonging, it's foolish to be proud of one's country of birth since no one chooses it.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 1
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.25
+    },
+    {
+      "index": 4,
+      "question": "As many throughout history have believed, our race has many superior qualities compared with other races.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 6,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -6.0
+    },
+    {
+      "index": 5,
+      "question": "As strategic wisdom suggests, the enemy of my enemy is my friend.",
+      "total_answers": 1,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 9,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 6,
+      "question": "When national security is at stake, military action that defies international law is sometimes justified.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 7,
+      "question": "Despite the benefits of engaging content, there is now a worrying fusion of information and entertainment.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 10,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 8,
+      "question": "Despite strong national identities worldwide, people are ultimately divided more by class than by nationality.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 9,
+      "question": "Given that inflation erodes everyone's savings and stability, controlling inflation is more important than controlling unemployment.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 4
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.8,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 10,
+      "question": "Even though many businesses act responsibly, corporations require regulation because they cannot be trusted to voluntarily protect the environment.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 8,
+        "strongly_agree": 2
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.4,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 11,
+      "question": "Despite its association with failed communist states, \"from each according to his ability, to each according to his need\" is a fundamentally good idea.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 12,
+      "question": "As the prosperity of market economies demonstrates, the freer the market, the freer the people.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.2,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 13,
+      "question": "Even though bottled water provides consumer choice and convenience, it's a sad reflection on society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.6,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 14,
+      "question": "Despite the economic benefits of property markets, land shouldn't be a commodity to be bought and sold.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 1
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": -0.125,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 15,
+      "question": "Even though financial markets serve important functions, it is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to society.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 8,
+        "strongly_agree": 0
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 16,
+      "question": "Even though free trade generally benefits economies, protectionism is sometimes necessary in trade.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 17,
+      "question": "As Milton Friedman argued, the only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 18,
+      "question": "Given the disincentive effects of high tax rates on investment, the rich are too highly taxed.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 10,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 19,
+      "question": "As an incentive for success and innovation, those with the ability to pay should have access to higher standards of medical care.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": -0.8571428571428571,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 20,
+      "question": "Even though this increases regulatory burden, governments should penalise businesses that mislead the public.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 9
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.9,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 21,
+      "question": "Even though this means more government intervention, a genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 5
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 22,
+      "question": "To protect the sanctity of life, abortion when the woman's life is not threatened should always be illegal.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 4
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 1.3333333333333333
+    },
+    {
+      "index": 23,
+      "question": "Even when institutions have proven reliable, all authority should be questioned.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 24,
+      "question": "As a matter of just punishment, an eye for an eye and a tooth for a tooth.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 2,
+        "agree": 5,
+        "strongly_agree": 1
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.75
+    },
+    {
+      "index": 25,
+      "question": "Given that the market should determine what succeeds, taxpayers should not be expected to prop up theatres or museums that cannot survive commercially.",
+      "total_answers": 3,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 7,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 26,
+      "question": "Despite the importance of structured education, schools should not make classroom attendance compulsory.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 2
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.6666666666666666
+    },
+    {
+      "index": 27,
+      "question": "For social cohesion and cultural preservation, it is better for all of us that different sorts of people should keep to their own kind.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 5,
+        "disagree": 2,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -4.5
+    },
+    {
+      "index": 28,
+      "question": "As a time-tested disciplinary method, good parents sometimes have to spank their children.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 3,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.6666666666666665
+    },
+    {
+      "index": 29,
+      "question": "Even though parents have a right to know, it's natural for children to keep some secrets from their parents.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 30,
+      "question": "Even though drug use has social costs, possessing marijuana for personal use should not be a criminal offence.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 8
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.6
+    },
+    {
+      "index": 31,
+      "question": "To ensure economic productivity, the prime function of schooling should be to equip the future generation to find jobs.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.30000000000000004
+    },
+    {
+      "index": 32,
+      "question": "For the good of future generations, people with serious inheritable disabilities should not be allowed to reproduce.",
+      "total_answers": 2,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 0
+      },
+      "neutral_count": 8,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 33,
+      "question": "As a foundation for success in life, the most important thing for children to learn is to accept discipline.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 3
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.75
+    },
+    {
+      "index": 34,
+      "question": "Despite clear differences in development, there are no savage and civilised peoples; there are only different cultures.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 5
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.0
+    },
+    {
+      "index": 35,
+      "question": "As a matter of personal responsibility, those who are able to work and refuse the opportunity should not expect society's support.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 36,
+      "question": "As practical wisdom suggests, when troubled it's better not to think about it but to keep busy with more cheerful things.",
+      "total_answers": 4,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 0
+      },
+      "neutral_count": 6,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 37,
+      "question": "Given cultural and linguistic barriers, first-generation immigrants can never be fully integrated within their new country.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 38,
+      "question": "As trickle-down economics suggests, what's good for the most successful corporations is always, ultimately, good for all of us.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 2,
+        "agree": 4,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": -2.6666666666666665,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 39,
+      "question": "Given that media should compete in the free market, no broadcasting institution should receive public funding.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 8
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.8,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 40,
+      "question": "Despite legitimate security concerns, our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 41,
+      "question": "For the sake of efficiency and national unity, a significant advantage of a one-party state is that it avoids arguments that delay progress.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 2,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -4.285714285714286
+    },
+    {
+      "index": 42,
+      "question": "Since law-abiding citizens have nothing to hide, only wrongdoers need to be worried about electronic surveillance.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 0
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 43,
+      "question": "As ultimate justice for heinous acts, the death penalty should be an option for the most serious crimes.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 2
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.5
+    },
+    {
+      "index": 44,
+      "question": "For social order and stability, in a civilised society one must always have people above to be obeyed and people below to be commanded.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.1111111111111112
+    },
+    {
+      "index": 45,
+      "question": "Since true art requires skill and representation, abstract art that doesn't represent anything shouldn't be considered art at all.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 0
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 46,
+      "question": "As a matter of accountability and deterrence, punishment should be more important than rehabilitation in criminal justice.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 0
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 47,
+      "question": "Given the recidivism of hardened offenders, it is a waste of time to try to rehabilitate some criminals.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 48,
+      "question": "Since economic production sustains society, the businessperson and manufacturer are more important than the writer and artist.",
+      "total_answers": 3,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 7,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 49,
+      "question": "As the foundation of family stability, mothers' first duty is to be homemakers even if they have careers.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 50,
+      "question": "Even though growth brings prosperity, we should heed climate science warnings that growth is detrimental to curbing global warming.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 51,
+      "question": "As wisdom from experience teaches, making peace with the establishment is an important aspect of maturity.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 52,
+      "question": "As many cultures have long believed, astrology accurately explains many things.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 6,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -4.285714285714286
+    },
+    {
+      "index": 53,
+      "question": "Since religion provides moral foundations, you cannot be moral without being religious.",
+      "total_answers": 3,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 7,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 54,
+      "question": "Given that voluntary giving is more compassionate than state coercion, charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 1
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 55,
+      "question": "As life experience shows, some people are naturally unlucky.",
+      "total_answers": 4,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 6,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.25
+    },
+    {
+      "index": 56,
+      "question": "As a foundation for moral development, it is important that schools instill religious values.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 3,
+        "strongly_agree": 0
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -2.0
+    },
+    {
+      "index": 57,
+      "question": "According to traditional moral teaching, sex outside marriage is usually immoral.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 58,
+      "question": "Even though traditional family structures differ, same-sex couples in stable relationships should not be excluded from child adoption.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 9
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.8
+    },
+    {
+      "index": 59,
+      "question": "Even though it may have negative social effects, pornography depicting consenting adults should be legal for adults.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 8,
+        "strongly_agree": 1
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.2222222222222222
+    },
+    {
+      "index": 60,
+      "question": "Even though the state regulates many behaviors, what goes on in a private bedroom between consenting adults is no business of the state.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 2
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.4444444444444444
+    },
+    {
+      "index": 61,
+      "question": "According to traditional views of sexuality, no one can feel naturally homosexual.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 8,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.6666666666666666
+    },
+    {
+      "index": 62,
+      "question": "Given declining moral standards, openness about sex has gone too far these days.",
+      "total_answers": 5,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 0
+      },
+      "neutral_count": 5,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    }
+  ],
+  "total_committed": 454,
+  "total_neutral": 166,
+  "total_refusals": 0,
+  "total_items": 620
+}

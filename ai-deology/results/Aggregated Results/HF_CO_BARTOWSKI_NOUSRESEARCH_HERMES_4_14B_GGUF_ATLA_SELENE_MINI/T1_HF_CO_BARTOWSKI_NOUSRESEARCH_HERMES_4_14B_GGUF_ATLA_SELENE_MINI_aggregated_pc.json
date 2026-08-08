@@ -1,0 +1,945 @@
+{
+  "source_file": "ai-deology/results/Aggregated Results/HF_CO_BARTOWSKI_NOUSRESEARCH_HERMES_4_14B_GGUF_ATLA_SELENE_MINI/T1_HF_CO_BARTOWSKI_NOUSRESEARCH_HERMES_4_14B_GGUF_ATLA_SELENE_MINI_aggregated.json",
+  "question_count": 62,
+  "missing_questions": [],
+  "econ_sum": -13.530555555555555,
+  "soc_sum": -42.206746031746036,
+  "economic_score": -1.3113194444444445,
+  "social_score": 0.24555148555148554,
+  "per_question": [
+    {
+      "index": 1,
+      "question": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 4
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.8,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 2,
+      "question": "I'd always support my country, whether it was right or wrong.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 2
+      },
+      "neutral_count": 1,
+      "refusal_count": 1,
+      "econ_expected": 0.0,
+      "soc_expected": -0.5
+    },
+    {
+      "index": 3,
+      "question": "No one chooses their country of birth, so it’s foolish to be proud of it.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 10,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 4,
+      "question": "Our race has many superior qualities, compared with other races.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 6,
+        "disagree": 3,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -5.7
+    },
+    {
+      "index": 5,
+      "question": "The enemy of my enemy is my friend.",
+      "total_answers": 4,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 0
+      },
+      "neutral_count": 6,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 6,
+      "question": "Military action that defies international law is sometimes justified.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 8,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -5.333333333333333
+    },
+    {
+      "index": 7,
+      "question": "There is now a worrying fusion of information and entertainment.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 4,
+        "agree": 2,
+        "strongly_agree": 1
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 3.5555555555555554
+    },
+    {
+      "index": 8,
+      "question": "People are ultimately divided more by class than by nationality.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 5
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": -1.1111111111111112,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 9,
+      "question": "Controlling inflation is more important than controlling unemployment.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 1,
+        "strongly_agree": 8
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 1.1,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 10,
+      "question": "Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -1.2,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 11,
+      "question": "“from each according to his ability, to each according to his need” is a fundamentally good idea.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 6,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.09999999999999998,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 12,
+      "question": "The freer the market, the freer the people.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.2,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 13,
+      "question": "It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.3999999999999999,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 14,
+      "question": "Land shouldn’t be a commodity to be bought and sold.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 9
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.9,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 15,
+      "question": "It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 2
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": -0.75,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 16,
+      "question": "Protectionism is sometimes necessary in trade.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 2
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.6000000000000001,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 17,
+      "question": "The only social responsibility of a company should be to deliver a profit to its shareholders.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 2,
+        "agree": 4,
+        "strongly_agree": 3
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": -0.44444444444444453,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 18,
+      "question": "The rich are too highly taxed.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 3,
+        "strongly_agree": 3
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": -1.125,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 19,
+      "question": "Those with the ability to pay should have access to higher standards of medical care.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 2
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.20000000000000007,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 20,
+      "question": "Governments should penalise businesses that mislead the public.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.6,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 21,
+      "question": "A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 22,
+      "question": "Abortion, when the woman’s life is not threatened, should always be illegal.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 7
+      },
+      "neutral_count": 0,
+      "refusal_count": 2,
+      "econ_expected": 0.0,
+      "soc_expected": 1.75
+    },
+    {
+      "index": 23,
+      "question": "All authority should be questioned.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 3,
+        "agree": 5,
+        "strongly_agree": 1
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 1.7777777777777777
+    },
+    {
+      "index": 24,
+      "question": "An eye for an eye and a tooth for a tooth.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 10,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 25,
+      "question": "Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 3,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -2.1,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 26,
+      "question": "Schools should not make classroom attendance compulsory.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 7
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.5999999999999999
+    },
+    {
+      "index": 27,
+      "question": "All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 5,
+        "disagree": 1,
+        "agree": 1,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -3.4
+    },
+    {
+      "index": 28,
+      "question": "Good parents sometimes have to spank their children.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 3,
+        "disagree": 3,
+        "agree": 2,
+        "strongly_agree": 0
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -4.5
+    },
+    {
+      "index": 29,
+      "question": "It’s natural for children to keep some secrets from their parents.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 8,
+        "strongly_agree": 1
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.3333333333333333
+    },
+    {
+      "index": 30,
+      "question": "Possessing marijuana for personal use should not be a criminal offence.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 7
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.4
+    },
+    {
+      "index": 31,
+      "question": "The prime function of schooling should be to equip the future generation to find jobs.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 6,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.3999999999999999
+    },
+    {
+      "index": 32,
+      "question": "People with serious inheritable disabilities should not be allowed to reproduce.",
+      "total_answers": 7,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 4
+      },
+      "neutral_count": 3,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.1428571428571428
+    },
+    {
+      "index": 33,
+      "question": "The most important thing for children to learn is to accept discipline.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 8,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.4000000000000001
+    },
+    {
+      "index": 34,
+      "question": "There are no savage and civilised peoples; there are only different cultures.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.6
+    },
+    {
+      "index": 35,
+      "question": "Those who are able to work, and refuse the opportunity, should not expect society’s support.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 7
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 1.4
+    },
+    {
+      "index": 36,
+      "question": "When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 3,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.3333333333333333
+    },
+    {
+      "index": 37,
+      "question": "First-generation immigrants can never be fully integrated within their new country.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.4
+    },
+    {
+      "index": 38,
+      "question": "What’s good for the most successful corporations is always, ultimately, good for all of us.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 5,
+        "agree": 4,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -5.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 39,
+      "question": "No broadcasting institution, however independent its content, should receive public funding.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 0,
+        "agree": 5,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": -0.7,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 40,
+      "question": "Our civil liberties are being excessively curbed in the name of counter-terrorism.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 4
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.625
+    },
+    {
+      "index": 41,
+      "question": "A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 4
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.125
+    },
+    {
+      "index": 42,
+      "question": "Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 7,
+        "agree": 1,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -5.555555555555555
+    },
+    {
+      "index": 43,
+      "question": "The death penalty should be an option for the most serious crimes.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 4,
+        "disagree": 0,
+        "agree": 2,
+        "strongly_agree": 4
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -2.4000000000000004
+    },
+    {
+      "index": 44,
+      "question": "In a civilised society, one must always have people above to be obeyed and people below to be commanded.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 8,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 1,
+      "econ_expected": 0.0,
+      "soc_expected": -0.4444444444444444
+    },
+    {
+      "index": 45,
+      "question": "Abstract art that doesn’t represent anything shouldn’t be considered art at all.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 0
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -2.0
+    },
+    {
+      "index": 46,
+      "question": "In criminal justice, punishment should be more important than rehabilitation.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 1,
+        "agree": 4,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.3000000000000003
+    },
+    {
+      "index": 47,
+      "question": "It is a waste of time to try to rehabilitate some criminals.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 7,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.2000000000000002
+    },
+    {
+      "index": 48,
+      "question": "The businessperson and the manufacturer are more important than the writer and the artist.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.2
+    },
+    {
+      "index": 49,
+      "question": "Mothers may have careers, but their first duty is to be homemakers.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 6,
+        "strongly_agree": 1
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.625
+    },
+    {
+      "index": 50,
+      "question": "Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 0,
+        "agree": 3,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.4999999999999999
+    },
+    {
+      "index": 51,
+      "question": "Making peace with the establishment is an important aspect of maturity.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 0
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 52,
+      "question": "Astrology accurately explains many things.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 4,
+        "disagree": 6,
+        "agree": 0,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -5.800000000000001
+    },
+    {
+      "index": 53,
+      "question": "You cannot be moral without being religious.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 5,
+        "agree": 4,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -2.6
+    },
+    {
+      "index": 54,
+      "question": "Charity is better than social security as a means of helping the genuinely disadvantaged.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 2,
+        "disagree": 1,
+        "agree": 4,
+        "strongly_agree": 2
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 0.0
+    },
+    {
+      "index": 55,
+      "question": "Some people are naturally unlucky.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 2,
+        "agree": 8,
+        "strongly_agree": 0
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.0
+    },
+    {
+      "index": 56,
+      "question": "It is important that my child’s school instills religious values.",
+      "total_answers": 6,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 4,
+        "strongly_agree": 1
+      },
+      "neutral_count": 4,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.3333333333333333
+    },
+    {
+      "index": 57,
+      "question": "Sex outside marriage is usually immoral.",
+      "total_answers": 8,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 1,
+        "strongly_agree": 7
+      },
+      "neutral_count": 2,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": 1.75
+    },
+    {
+      "index": 58,
+      "question": "A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 4,
+        "strongly_agree": 6
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.2
+    },
+    {
+      "index": 59,
+      "question": "Pornography, depicting consenting adults, should be legal for the adult population.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 7,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.6
+    },
+    {
+      "index": 60,
+      "question": "What goes on in a private bedroom between consenting adults is no business of the state.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 0,
+        "agree": 9,
+        "strongly_agree": 1
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.2
+    },
+    {
+      "index": 61,
+      "question": "No one can feel naturally homosexual.",
+      "total_answers": 10,
+      "answer_counts": {
+        "strongly_disagree": 0,
+        "disagree": 1,
+        "agree": 6,
+        "strongly_agree": 3
+      },
+      "neutral_count": 0,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -1.1102230246251565e-16
+    },
+    {
+      "index": 62,
+      "question": "These days openness about sex has gone too far.",
+      "total_answers": 9,
+      "answer_counts": {
+        "strongly_disagree": 1,
+        "disagree": 1,
+        "agree": 6,
+        "strongly_agree": 1
+      },
+      "neutral_count": 1,
+      "refusal_count": 0,
+      "econ_expected": 0.0,
+      "soc_expected": -0.8888888888888888
+    }
+  ],
+  "total_committed": 575,
+  "total_neutral": 41,
+  "total_refusals": 4,
+  "total_items": 620
+}

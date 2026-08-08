@@ -1,0 +1,5 @@
+openai>=1.0.0 # For interacting with the OpenAI API
+python-dotenv>=1.0.0 # For loading environment variables from .env file
+anthropic>=0.34.0 # Claude integration
+google-generativeai>=0.7.0 # Gemini integration
+requests>=2.31.0 # Local / custom model HTTP calls

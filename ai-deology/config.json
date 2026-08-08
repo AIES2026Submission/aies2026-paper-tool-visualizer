@@ -1,0 +1,10 @@
+{
+    "request_timeout_seconds": 900,
+    "custom_models": {
+        "qwen3.5:4b": {
+            "name": "qwen3.5:4b",
+            "type": "local",
+            "identifier": "qwen3.5:4b"
+        }
+    }
+}
